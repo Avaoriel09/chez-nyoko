@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Pizza Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ff5733;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .menu-item {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: 230px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+p{
+    text-align: center;
+}
+
+header {
+    background-color: #d9534f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+section h2{
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    transition: transform 0.2s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        float: none;
+    }
+
+    .menu-item {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #f19809;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.main{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    overflow: hidden;
+}
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #eb960e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: start;
+}
+ 
+button:hover {
+    background-color: #c9302c; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    button {
+        width: 90%;
+    }
+}
+    </style>
+</head>
+<body>
+   
+<header>
+    <div class="main-content"> 
+        <div class="left-col"></div>
+         <img src="Images/logo.png" alt="logo" class="logo"> 
+    </div>
+    <h1>Welcome to Pizza Hub!</h1>
+    <br>
+    <section>
+        <h2>Order Your Favorite Pizza!</h2>
+    </section>
+    <nav>
+            <a href="aboutus.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="order now.html">Order now</a>
+    </nav>
+    
+       </div>
+       <a href="sign up.html">
+        <button class="signup-btn">Sign Up</button>
+       </a>
+        <a href="login.html">
+            <button class="login-btn">Login</button>
+        </a>
+        <a href="sign in as guest.html">
+            <button class="sign in as guest-btn">sign in as guest</button>
+        </a>
+    </section>
+</header>
+
+
+<section id="menu">
+    <h2>Menu</h2>
+    <div class="menu">
+        <div class="menu-item">
+            <img src="Images/Screenshot 2024-10-28 172538.png" alt="Margherita pizza" width="200px" height="210px"></img>
+            <h3>Margherita Pizza</h3>
+            <p>Ingredients:</p>
+            <p>Fresh mozzarella cheese, tomatoes, and basil.</p>
+            <p><strong>9,200rfw</strong></p>
+            <a href="order now.html">
+                <button class="order-btn">Order Now</button>
+            </a>
+        </div>
+        <div class="menu-item">
+            <img src="Images/Screenshot 2024-10-28 172335.png" alt="Pepperoni Pizza" width="200px" height="200px"></img>
+            <h3>Pepperoni Pizza</h3>
+            <p>Ingredients:</p>
+            <p>Pepperoni and mozzarella cheese.</p>
+            <p><strong>10,400rfw</strong></p>
+            <a href="order now.html">
+                <button class="order-btn">Order Now</button>
+            </a>
+        </div>
+        <div class="menu-item">
+            <img src="Images/Screenshot 2024-10-28 173244.png" alt="Vegetarian Pizza" width="205px" height="200px"></img>
+            <h3>Vegetarian Pizza</h3>
+            <p>Ingredients:</p>
+            <p>A mix of vegetables including bell peppers, onions, mushrooms, olives and spinach plus Mozzarella cheese.</p>
+            <p><strong>12,000rfw</strong></p>
+            <a href="order now.html">
+                <button class="order-btn">Order Now</button>
+            </a>
+        </div>
+        <div class="menu-item">
+            <img src="Images/Screenshot 2024-10-28 173506.png" alt="BBQ Chicken Pizza" width="200px" height="200px"></img>
+            <h3>BBQ Chicken Pizza</h3>
+            <p>Ingredients:</p>
+            <p>Grilled chicken, BBQ sauce, and mozzarella cheese.</p>
+            <p><strong>13,500rfw</strong></p>
+            <a href="order now.html">
+                <button class="order-btn">Order Now</button>
+            </a>
+        </div>
+        <div class="menu-item">
+            <img src="Images/Screenshot 2024-10-28 184135.png" alt="Mushroom pizza" width="200px" height="190px"></img>
+            <h3>Mushroom pizza</h3>
+            <p>Ingredients:</p>
+            <p>Mushrooms, tomato sauce and mozzarella cheese
+            <p><strong>10,100rfw</strong></p>
+            <a href="order now.html">
+                <button class="order-btn">Order Now</button>
+            </a>
+        </div>
+        <div class="menu-item">
+            <img src="Images/Screenshot 2024-10-28 184339.png" alt="Meat lovers Pizza" width="200px" height="190px"></img>
+            <h3>Meat lovers Pizza</h3>
+            <p>Ingredients:</p>
+            <p>A variety of meats like pepperoni, sausage, bacon, ham, and ground beef.
+            <p><strong>14,000rfw</strong></p>
+            <a href="order now.html">
+                <button class="order-btn">Order Now</button>
+            </a>
+        </div>
+        <div class="menu-item">
+            <img src="Images/Screenshot 2024-10-28 184610.png" alt="Hawaiian Pizza" width="200px" height="190px"></img>
+            <h3>Hawaiian Pizza</h3>
+            <p>Ingredients:</p>
+            <p>Ham, pineapple, and mozzarella cheese.
+            <p><strong>9,800rfw</strong></p>
+            <a href="order now.html">
+                <button class="order-btn">Order Now</button>
+            </a>
+
+        </div>
+
+        </div>
+
+<footer>
+    <p>&copy; 2024 Pizza Hub. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

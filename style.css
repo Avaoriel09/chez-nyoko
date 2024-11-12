@@ -1,0 +1,100 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #d9534f; /* Bootstrap's danger color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Main Content Styling */
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    transition: transform 0.2s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul li {
+        float: none;
+    }
+
+    .menu-item {
+        width: 90%;
+        margin: 10px auto;
+    }
+}

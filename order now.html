@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Hub - Order Now</title>
+    <link rel="stylesheet" href="order now.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pizza Hub</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <form id="pizzaOrderForm">
+                <h2>Select additional toppings:</h2>
+                <h3>OPTIONAL</h3>
+                <div>
+                    <ul style="list-style-type: none;">
+                        <li style="display: inline;">
+                            <label><input type="checkbox" value="Pepperoni" class="topping"> Pepperoni</label> 
+                            <label style="padding: 70px;"> 1500rfw</label>                     
+                        </li>
+                        <br>
+                        <br>
+                        <li>
+                            <label><input type="checkbox" value="Mushrooms" class="topping"> Mushrooms</label>
+                            <label style="padding: 60px;"> 1000rfw</label>
+                        </li>
+                        <br>
+                        <li>
+                            <label><input type="checkbox" value="Onions" class="topping"> Onions</label>
+                            <label style="padding: 90px;"> 600rfw</label>
+                        </li>
+                        <br>
+                        <li>
+                            <label><input type="checkbox" value="Sausage" class="topping"> Sausage</label>
+                            <label style="padding: 80px;"> 2000rfw</label>
+                        </li>
+                        <br>
+                        <li>
+                            <label><input type="checkbox" value="Bacon" class="topping"> Bacon</label>
+                            <label style="padding: 100px;"> 2000rfw</label>
+                        </li>
+                        <br>
+                        <li>
+                            <label><input type="checkbox" value="Extra cheese" class="topping"> Extra cheese</label>
+                            <label style="padding: 50px;"> 500rfw</label>
+                        </li>
+                        <br>
+                        <li>
+                            <label><input type="checkbox" value="Black olives" class="topping"> Black olives</label>
+                            <label style="padding: 60px;"> 1000rfw</label>
+                        </li>
+                        <br>
+                        <li>
+                            <label><input type="checkbox" value="Green peppers" class="topping"> Green peppers</label>
+                            <label style="padding: 40px;"> 1000rfw</label>
+                        </li>
+                        <br>
+                        <li>
+                            <label><input type="checkbox" value="Pineapple" class="topping"> Pineapple</label>
+                            <label style="padding: 70px;"> 600rfw</label>
+                        </li>
+                        <br>
+                        <li>
+                            <label><input type="checkbox" value="Basil" class="topping"> Basil</label>
+                            <label style="padding: 110px;"> 300rfw</label>
+                        </li>
+                    </ul>
+                </div>
+    </section>
+    <section id="order">
+        <h2>Order Now</h2>
+        <form>
+            <label for="pizza">Select Pizza:</label>
+            <select id="pizza" name="pizza" required>
+                <option value="Margherita pizza">Margherita pizza</option>
+                <option value="Pepperoni pizza">Pepperoni pizza</option>
+                <option value="Hawaiian pizza">Hawaiian pizza</option>
+                <option value="Meat lovers pizza">Meat lovers pizza</option>
+                <option value="Mushroom pizza">Mushroom pizza</option>
+                <option value="BBQ Chicken pizza">BBQ Chicken pizza</option>
+                <option value="vegetarian pizza">Vegetarian pizza</option>
+            </select>
+<br>
+<br>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+    <section>
+       <h3> Transportation fee: 1500 rfw.</h3>
+    </section>
+<section id="Total Amount">
+    <h2> Total Amount:</h2>
+</section>
+    <footer>
+        <p>Contact us at: pizzahub@gmail.com</p>
+    </footer>
+</body>
+</html>
